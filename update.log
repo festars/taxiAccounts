@@ -1,0 +1,7 @@
+19/06/18 v1.2.0619 
+#new - print week page in table format added to reports.
+*bugfix - could only enter whole numbers in payments.
+*bugfix - route library (L28)
+
+18/06/18 v1.2.0618 
+!1st test release.

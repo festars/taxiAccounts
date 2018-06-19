@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400');
+/*light:#00aafd*/
+/*med:#1ba1e2*/
+/*dark:#1d89de*/
+body{font-family: Roboto,Helvetica,Arial,sans-serif;background-color: #eeeeee;}
+.taxiRent{ font-size:16px;}
+
+/*nav-bar*/
+.navbar-default  {    background-color: #1ba1e2;    color: #ffffff;}
+.navbar-default .navbar-brand {    color: #fff;    font-weight: bold;}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav>li>a:hover {    color:#fff;    background-color: #00aafd;}
+.navbar-default .navbar-nav>li>a{color:#fff;}
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {    background: #fff;}
+.navbar-default .navbar-toggle .icon-bar {    background-color: #1ba1e2;}
+
+.navbar-default .navbar-nav>.active>a {outline: 0;background: #0696DC; color: #ffffff;}
+
+
+/*buttons*/
+.btn-primary{background-color: #1ba1e2;border:none;}
+.btn-primary:focus,.btn-primary:hover,.btn-primary:active,.btn-primary:active:focus{background-color: #00aafd;border:none;}
+/*forms*/
+.form-control{font-family:Arial, FontAwesome;    font-size:16px; height: 42px;}
+/*footer*/
+.footer-copyright{   font-size: 0.8em; padding: 10px;    margin-top: 5px;    color: #555;}
+/*page*/
+.page-title{color:#1ba1e2;    margin: 14px auto;    text-align: center;    font-size: 28px;    color: #555;margin-bottom:5px;}
+.page{margin-top: 50px;    background-color: #eee;}
+.row.summary{    margin: 0 5px;}
+/*home*/
+.pg-home h1.page-title{display: none;}
+.home-splash{text-align: center;    color: #1ba1e2;     padding: 3em;}
+.home-splash .splash-title{margin-bottom: 1em;}
+/**************************************************************/
+/*************      add/edit payment        *******************/
+/**************************************************************/
+.lblWeekCommencing{float:right;}
+/**************************************************************/
+/*************           dashboard          *******************/
+/**************************************************************/
+.dash-summary{padding: 5px 0; color: #111; margin:0;text-align: right; font-size: 18px;    font-weight: bold;    margin-top:5px;}
+.lblDashboard p{padding: 10px 16px;border-radius: 3px;}
+.count-box{text-align: center;}
+.goBackSmall{margin-bottom: 10px;}
+.pg-dash .goBackSmall,
+.pg-login .goBackSmall,
+.pg-home .goBackSmall{display:none;}
+.listPaymentHistory{margin-right: 0px;min-width: 170px; display: inline-block;}
+.listDrvNo{margin-right: 0px;min-width: 110px; display: inline-block;}
+.bg-success .listDrvNo, .bg-info .listDrvNo {min-width: 180px;}
+.pg-driver-history button{margin: 10px auto;}
+.page hr{margin-top:0;    border-top: 1px solid #bbb;}
+.page .h3, h3 {
+    font-size: 20px;
+}
+
+.driverPaidDetails{font-size: 0.9em;font-weight: bold;}
+
+
+.lblDashboard p{padding: 10px 16px;border-radius: 3px;}
+.lblDashboard .bg-danger,.card-header-danger .card-icon{background: linear-gradient(60deg,#ef5350,#e53935);}
+.lblDashboard .bg-success,.card-header-success .card-icon{background: linear-gradient(60deg,#66bb6a,#43a047);}
+.lblDashboard .bg-info,.card-header-info .card-icon{background: linear-gradient(60deg,#26c6da,#00acc1);}
+.lblDashboard .bg-warning, .card-header-warning .card-icon{background: linear-gradient(60deg,#ffa726,#fb8c00);}
+.lblDashboard .bg-wafrning{    box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);    color: #333;    background: #fff;}
+
+.material-icons{color: #fff;font-weight: bold;}
+
+.card{  
+    
+    border: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    color: #333;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);}
+    
+.card [class*=card-header-] .card-icon, .card [class*=card-header-] .card-text {
+    border-radius: 3px;
+    background-color: #999;
+   padding: 10px;
+    margin-top: -5px;
+    margin-right: 10px;
+    float: left;
+    min-width:48px;
+    text-align:center;
+}
+
+.card [class*=card-header-] {
+    margin: 0 10px;
+    padding: 0;
+    position: relative;
+}
+.card-header-danger .card-icon, .card .card-header-danger .card-text, .card .card-header-danger:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-danger .back, .card.card-rotate.bg-danger .front {
+    font-size:24px; box-shadow: 0 1px 4px 0 rgba(0,0,0,.14); 
+}
+.card-header-success .card-icon, .card .card-header-success .card-text, .card .card-header-success:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-success .back, .card.card-rotate.bg-success .front {
+  font-size:24px; box-shadow: 0 1px 4px 0 rgba(0,0,0,.14); 
+}
+.card-header-info .card-icon, .card .card-header-info .card-text, .card .card-header-info:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-info .back, .card.card-rotate.bg-info .front {
+   font-size:24px; box-shadow: 0 1px 4px 0 rgba(0,0,0,.14); 
+}
+.card-header-warning .card-icon, .card .card-header-warning .card-text, .card .card-header-warning:not(.card-header-icon):not(.card-header-text), .card.card-rotate.bg-warning .back, .card.card-rotate.bg-warning .front {
+    background: linear-gradient(60deg,#ffa726,#fb8c00);font-size:24px; box-shadow: 0 1px 4px 0 rgba(0,0,0,.14); 
+}
+
+.card-total{    margin-bottom: 10px;    margin-top: 10px;}
+.card-total b{float:right;}
+
+
+.card-status-driver .btndelete{}
+
+/*##print##*/
+
+@media print {
+    nav,hr,button{display: none;}
+    .btn{display: none;}
+    .goBackSmall,.page-title{display: none;}
+    .driverSummary .card{display: inline;}
+    .driverSummary .card [class*=card-header-],.driverSummary .card-category{display: inline-block;margin-top:0;margin-bottom:0; font-size: 0.9em;}
+    .driverTotals .card{margin-top:0;margin-bottom:0;font-size: 0.8em;display: table;}
+    .driversList .card{margin-top:0;margin-bottom:0;font-size: 0.8em;display: table;}
+    .card-status-due,.card-status-off{display:none!important;}
+    .card-status-paid{display: inline-block!important;width: 50%;}
+    .page {margin-top:0px!important;}
+    
+}
+
+
+
